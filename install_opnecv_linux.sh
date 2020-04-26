@@ -11,7 +11,7 @@ mkdir opencv_install
 # shellcheck disable=SC2164
 cd opencv_install
 git clone https://github.com/opencv/opencv.git
-git clone https://github.com/opencv/opencv_contrib.git
+# git clone https://github.com/opencv/opencv_contrib.git
 
 cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
 
