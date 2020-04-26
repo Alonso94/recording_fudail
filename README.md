@@ -6,6 +6,7 @@ cd recording_fudail
 ```
 Run 
 ```shell script
+chmod +x install_opencv_linux.sh 
 sudo sh install_opencv_linux.sh
 ```
 After that run (don't forgot the dot after cmake)
